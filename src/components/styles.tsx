@@ -24,6 +24,7 @@ const styles = StyleSheet.create({
   SignUpButtonText: { color: 'cornflowerblue' },
   LoginButton: {
     backgroundColor: 'cornflowerblue',
+    marginTop: 20,
     height: 60,
     width: 300,
     borderRadius: 10,
@@ -31,6 +32,13 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   LoginButtonText: { color: 'white' },
+  SignUpTextInput: {
+    marginTop: 20,
+    borderRadius: 10,
+    borderColor: 'cornflowerblue',
+    borderWidth: 1,
+    width: 300,
+  },
 });
 
 export default styles;
